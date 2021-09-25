@@ -1,0 +1,19 @@
+.disabledList{
+    
+        pointer-events:none; 
+        opacity:0.6;        
+    
+}
+
+#todoList{
+        border: 10px solid whitesmoke;
+        
+}
+
+#mainnavbar{
+        background: whitesmoke);
+}
+
+body{
+   background-color: #34495e;     
+}

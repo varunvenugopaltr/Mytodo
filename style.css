@@ -1,0 +1,71 @@
+
+:root{
+    --themeColor:linear-gradient(to right, #4e4eec, #636366);
+    
+    
+}
+
+
+.minHeight{
+    min-height: 72vh;
+}
+.marginTop{
+    margin-top: 100px;
+}
+.marginBottomReduce{
+    margin-bottom: 20px !important;
+}
+
+.pushRight{
+    position: absolute !important;
+    left:60px !important;
+    /* top: 13px !important; */
+
+}
+
+/* login form styles */
+main {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .stepper {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+  }
+
+  .form {
+    background: #fff;
+    text-align: center;
+    position: absolute;
+    width: 25rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(51, 51, 51, 0.2);
+    display: none;
+    border-radius: .5rem;
+    overflow: hidden;
+  }
+  .form--header-container {
+    background:var(--themeColor);
+    color: rgb(255, 255, 255);
+    height: 6rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .form--header-title {
+    font-size: 1.4rem;
+  }
+  
+  .form--header-text {
+    padding: 0.5rem 0;
+  }
+  
+  
