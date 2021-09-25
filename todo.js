@@ -5,7 +5,7 @@ if(!currentUser){
 
 }
 
-$('#welcomeText').html(`Hello ${currentUser.uname}! <br> Welcome to your Todo List`);
+$('#welcomeText').html(`Hello ${currentUser.uname}. Welcome to your Todo List`);
 
 // Logout Section
 $('#logOut').on('click',(e)=>{
@@ -36,13 +36,8 @@ const getList=async ()=>{
         console.log('failed to fetch lists data',e);
     }
 }
-// call getlist() when GET LIST is clicked.
-$('#getList').on('click',(e)=>{
-    e.preventDefault();
-    getList();
-});
 
-//variable to keep track of cheking list items
+
 let checkedCount=0;
 
 const alertPromise= ()=>{
@@ -60,7 +55,7 @@ const alertPromise= ()=>{
 
 const promiseCall=()=>{
     alertPromise().then((data)=>{
-        alert(`Kudos, We done ${data} activities today.... Congrats!`);
+        alert(`Bravo..!! You completed ${data} activities today.!`);
     })
     .catch((err)=>{
         console.log('promise rejected');
